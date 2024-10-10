@@ -62,7 +62,6 @@ footer{
     #container{
         flex-wrap: wrap;
         img{
-            max-width: 300px;
             width: auto;
         }
         aside{
@@ -75,6 +74,7 @@ footer{
 @media only screen and (min-width:769px){
     #container{
         img{
+         max-width: 300px;
             float: left;
         }
     }
